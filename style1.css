@@ -1,0 +1,101 @@
+body {
+    margin: 30px;
+    min-height: 100vh;
+    background-image: url(ar.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; 
+}
+
+h1, h2 {
+    margin: 0;
+    color: rgb(255, 0, 0);
+    background-color: rgb(255, 238, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    padding: 20px;          
+    height: auto;          
+}
+h1 {
+    font-size: 70px;
+}
+h2 {
+    font-size: 50px;
+}
+
+
+.t1{
+    width: 600px;
+    height: 860px;
+    background-image: url(plano5.jpeg);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 10px solid rgb(0, 47, 255); padding: 10px;
+}
+
+.t2{
+    width: 1200px;
+    height: 1000px;
+    display: flex;
+}
+
+.t3{
+    margin: 10px;
+    width: 800px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: gold;
+    border: 10px solid gold; padding: 10px;
+}
+
+img{
+    margin: 10px;
+}
+
+pre{
+    margin: 0;
+    color: rgb(229, 255, 0);
+    background-color: rgb(0, 26, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    padding: 20px;          
+    height: auto; 
+    font-size: 40px;   
+}
+
+p{
+    margin: 0;
+    color: rgb(229, 255, 0);
+    background-color: rgb(0, 26, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    padding: 20px;          
+    height: auto; 
+    font-size: 40px;   
+}
+
+.t4{
+    margin: 10px;
+    width: 1600px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: gold;
+    border: 10px solid gold; padding: 10px;
+    flex-wrap: wrap;
+}
